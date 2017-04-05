@@ -58,7 +58,7 @@ Replace the URL with the proper location of the PHP file on your server.  Othewr
 Once you make the necessary modifications, _localhost:4200_ runs the demo, at which point you should see
 
 ![Image of Angular4/D3 Demo]
-(/screenshots/a4d3.png)
+(http://algorithmist.net/image/a4d3.png)
 
 
 The demo has been tested in late-model Chrome on a Mac. 
