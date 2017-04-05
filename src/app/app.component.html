@@ -1,0 +1,16 @@
+<div class="container-fluid rounded">
+  <div class="row fullWidth paddedDiv">
+    <p>Let's Make a Chart (with Angular 4 and D3 V4)</p>
+  </div>
+
+  <div class="row fullWidth">
+    <div class="paddedDiv">
+      <div *ngIf="loading">
+        <!-- Loading component -->
+        <loading loadingText="Loading Letter Frequency Data"></loading>
+      </div>
+      <!-- Letter frequency chart -->
+      <freq-chart width="800" height="400"></freq-chart>
+    </div>
+  </div>
+</div>

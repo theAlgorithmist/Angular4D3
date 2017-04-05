@@ -1,0 +1,66 @@
+.rounded
+{
+  width: 820px;
+  height: 460px;
+  padding: 8px;
+  border: 2px solid #dddddd;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.top-margin
+{
+  margin-top: 20px;
+}
+
+.paddedDiv
+{
+  padding: 8px;
+}
+
+.fullWidth
+{
+  width: 100%;
+}
+
+.bordered
+{
+  border: 1px solid #333333;
+}
+
+.pad-left
+{
+	margin-left: 6px;
+}
+
+.chart 
+{
+  fill: steelblue;
+}
+
+.chart text 
+{
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line 
+{
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path
+{
+  display: none;
+}
+
