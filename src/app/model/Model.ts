@@ -118,6 +118,7 @@
        {
          if (this._subscribers[i] === subject)
          {
+           this._subscribers[i].unsubscribe();
            this._subscribers.splice(i,1);
            break;
          }
